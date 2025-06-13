@@ -8,7 +8,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-URL: https://github.com/XueKang-Qi-1024/package
+URL: https://github.com/XueKang-Qi-1024/package, https://xuekang-qi-1024.github.io/raukr2025.package.test/
 BugReports: https://github.com/XueKang-Qi-1024/package/issues
 Suggests: 
     testthat (>= 3.0.0)

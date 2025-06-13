@@ -1,5 +1,5 @@
 Package: package
-Title: What the Package Does (One Line, Title Case)
+Title: raukr2025.package.practice
 Version: 0.0.0.9000
 Authors@R: 
     person("Xuekang", "Qi", , "xuekang.qi@ki.se", role = c("aut", "cre"))

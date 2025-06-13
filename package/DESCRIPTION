@@ -3,7 +3,7 @@ Title: raukr2025.package.practice
 Version: 0.0.0.9000
 Authors@R: 
     person("Xuekang", "Qi", , "xuekang.qi@ki.se", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: libminer.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -13,3 +13,5 @@ BugReports: https://github.com/XueKang-Qi-1024/package/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Imports: 
+    fs

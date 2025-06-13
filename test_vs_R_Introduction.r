@@ -1,0 +1,25 @@
+# Introduction
+# This R script visualizes the Palmer Penguins dataset.
+# The Palmer Penguins dataset contains size measurements for three penguin species
+# observed on islands in the Palmer Archipelago, Antarctica.
+# The visualizations in this script aim to explore relationships between species,
+# island, and various morphological measurements.
+# Data source: https://allisonhorst.github.io/palmerpenguins/
+# Load necessary libraries
+library(ggplot2)
+library(palmerpenguins)
+# Load the dataset
+data("penguins")
+# Check the structure of the dataset
+str(penguins)
+# visualize the distribution of flipper length by species
+ggplot(penguins, aes(x = species, y = flipper_length_mm, fill = species)) +
+  # change colors to superman colors
+    scale_fill_manual(values = c("Adelie" = "blue", "Chinstrap" = "red", "Gentoo" = "yellow")) +
+  geom_boxplot() +
+  labs(title = "Flipper Length by Species",
+       x = "Species",
+       y = "Flipper Length (mm)") +
+  theme_minimal()
+  # print the plot
+print(ggplot(penguins, aes(x = species, y = flipper_length_mm, fill = species)) +

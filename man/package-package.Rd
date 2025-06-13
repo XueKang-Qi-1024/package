@@ -12,6 +12,7 @@ libminer.
 Useful links:
 \itemize{
   \item \url{https://github.com/XueKang-Qi-1024/package}
+  \item \url{https://xuekang-qi-1024.github.io/raukr2025.package.test/}
   \item Report bugs at \url{https://github.com/XueKang-Qi-1024/package/issues}
 }
 

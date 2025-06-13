@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/XueKang-Qi-1024/package/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/XueKang-Qi-1024/package/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/XueKang-Qi-1024/package/graph/badge.svg)](https://app.codecov.io/gh/XueKang-Qi-1024/package)
 <!-- badges: end -->
 
 The goal of package is to ...

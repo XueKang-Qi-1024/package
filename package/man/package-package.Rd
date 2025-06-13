@@ -6,7 +6,7 @@
 \alias{package-package}
 \title{package: raukr2025.package.practice}
 \description{
-What the package does (one paragraph).
+libminer.
 }
 \seealso{
 Useful links:
